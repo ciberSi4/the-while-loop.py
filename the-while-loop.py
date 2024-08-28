@@ -5,7 +5,7 @@ print(my_list)
 i : int = 0
 print("Исходные данные:", my_list)
 print("Положительные числа, пока не встретили отрицательное или не закончился список (выход за границу):")
-while i < len(my_list):
+while i <= len(my_list):
     if my_list[i] == 0:
         i += 1
     elif my_list[i] > 0 :
